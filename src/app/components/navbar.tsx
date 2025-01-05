@@ -1,5 +1,4 @@
 "use client";
-// import Link from "next/link";
 import React, { useState } from "react";
 import { FiShoppingCart, FiUser, FiMenu, FiX, FiSearch } from "react-icons/fi";
 
@@ -20,10 +19,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Navigation Links */}
-
-
-      {/* Search Bar and Icons */}
       <div className="flex items-center space-x-4">
         <div className="hidden md:flex items-center bg-white text-gray-800 rounded-full px-4 py-2 w-[300px] lg:w-[400px] shadow-inner">
           <FiSearch className="text-gray-500 text-lg mr-2" />

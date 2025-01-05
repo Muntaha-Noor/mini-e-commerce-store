@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 export default async function Products({params}:{params:{product:string}}) {
@@ -12,9 +11,7 @@ export default async function Products({params}:{params:{product:string}}) {
     <div className="lg:w-4/5 mx-auto flex flex-wrap">
       <Image
         alt="ecommerce"
-        className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded sm:w-2/3 sm:h-48"
-
-        // className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+        className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
         src={res.image}
         width={400}
         height={400}
