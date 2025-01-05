@@ -21,29 +21,7 @@ const Navbar = () => {
       </div>
 
       {/* Navigation Links */}
-      <ul
-        className={`${
-          isMenuOpen
-            ? "absolute left-0 top-16 w-full bg-white text-gray-800 shadow-lg"
-            : "hidden"
-        } md:flex md:static md:w-auto space-y-2 md:space-y-0 md:space-x-8 text-base font-medium`}
-      >
-        {/* <Link href="/">
-          <li className="px-4 py-2 md:p-0 text-center md:text-left hover:text-yellow-500 transition">
-            Home
-          </li>
-        </Link> */}
-        {/* <Link href="/products">
-          <li className="px-4 py-2 md:p-0 text-center md:text-left hover:text-yellow-500 transition">
-            Products
-          </li>
-        </Link> */}
-        {/* <Link href="/contact">
-          <li className="px-4 py-2 md:p-0 text-center md:text-left hover:text-yellow-500 transition">
-            Contact
-          </li>
-        </Link> */}
-      </ul>
+
 
       {/* Search Bar and Icons */}
       <div className="flex items-center space-x-4">
