@@ -1,4 +1,5 @@
 import Image from "next/image";
+import React from 'react';
 
 export default async function Products({params}:{params:{product:string}}) {
     const data = await fetch(`https://fakestoreapi.com/products/${params.product}`)

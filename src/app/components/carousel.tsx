@@ -3,6 +3,7 @@ import img2 from "@/app/images/img2.png";
 import img3 from "@/app/images/img3.png";
 import img4 from "@/app/images/img4.png";
 import Image from "next/image";
+import React from 'react';
 
 const Carousel = () => {
   return (
